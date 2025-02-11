@@ -1,0 +1,769 @@
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-11 15:17:06] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-11 15:17:06] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026\
+[2025-02-11 15:17:06] [class-ss-setup-task.php:72] Adding origin URL to queue: http://accountant-life.local/
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 15:17:06] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 15:17:06] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-02-11 15:17:06] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/
+[2025-02-11 15:17:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-02-11 15:17:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69f2785cc-px6XpP.tmp
+[2025-02-11 15:17:06] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/?simply_static_page=1
+[2025-02-11 15:17:06] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/?simply_static_page=1
+[2025-02-11 15:17:15] [class-ss-url-fetcher.php:103] Filesize: 131851 bytes
+[2025-02-11 15:17:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-11 15:17:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-11 15:17:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69f2785cc-px6XpP.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/index.html
+[2025-02-11 15:17:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:15] [class-ss-fetch-urls-task.php:158] Adding 50 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:c47df7fa1ff6638c05b02eb12cb19acb9ea9a0ac===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-02-11 15:17:16] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-11 15:17:16] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 15:17:16] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 49
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-8.jpg
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc61ab8-xu6CuZ.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-8.jpg?simply_static_page=2
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-8.jpg?simply_static_page=2
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 44842 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-8.jpg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc61ab8-xu6CuZ.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-8.jpg
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:44f8074685f62ead4167fa77d727b4a10bf60564===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-8-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc672d1-V0ohK2.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-8-480x300.jpg?simply_static_page=3
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-8-480x300.jpg?simply_static_page=3
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 26360 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-8-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc672d1-V0ohK2.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-8-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:7b64b45646bdd07ff6f63ae6ee8501433ed806f6===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-7.jpg
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc6c56a-cDBR9I.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-7.jpg?simply_static_page=4
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-7.jpg?simply_static_page=4
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 40503 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-7.jpg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc6c56a-cDBR9I.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-7.jpg
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:6fc1487ed33c08b6d76908362d6d9d0d9c3940cd===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-7-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc783f5-vO2uGA.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-7-480x300.jpg?simply_static_page=5
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-7-480x300.jpg?simply_static_page=5
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 24955 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-7-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc783f5-vO2uGA.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-7-480x300.jpg
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:cdb6a6bbc0bdd262f6f4ce02c4920ece69e5bf7e===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc80a04-xV6SEx.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-29.png?simply_static_page=6
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29.png?simply_static_page=6
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 1039 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-29.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc80a04-xV6SEx.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-29.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:de43c7863adcf18dfb368149350072f2c57055af===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-32.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc8a197-NYxaGr.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-32.png?simply_static_page=7
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-32.png?simply_static_page=7
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 486 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-32.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc8a197-NYxaGr.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-32.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:f2a6f21dd0f934ce8ff2b06c00c9afd356c9327c===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc90f1e-2V8teP.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b.png?simply_static_page=8
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b.png?simply_static_page=8
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 3149 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-19b.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc90f1e-2V8teP.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-19b.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:628706d06cce3a6fd01f53d5570d294717711029===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b-480x150.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fc9db0e-jmmIEl.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b-480x150.png?simply_static_page=9
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-19b-480x150.png?simply_static_page=9
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 10033 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-19b-480x150.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fc9db0e-jmmIEl.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-19b-480x150.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:0409e0581701f2140f35556deb4c659b1c1c2539===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-20.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fca97a1-hf2yaM.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-20.png?simply_static_page=10
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-20.png?simply_static_page=10
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 3507 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-20.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fca97a1-hf2yaM.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-20.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:bdae883f53e332efcf961b98b27fb56c4a2bc6d3===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-20-480x150.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcb0b56-w0F5B2.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-20-480x150.png?simply_static_page=11
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-20-480x150.png?simply_static_page=11
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 10367 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-20-480x150.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcb0b56-w0F5B2.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-20-480x150.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:3a214898c5c25b2221854a654fe4a532e6c5d0aa===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcb9fc8-FyYol0.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b.png?simply_static_page=12
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b.png?simply_static_page=12
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 1583 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-21b.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcb9fc8-FyYol0.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-21b.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:4c0352e72c8c473e81500541e55b75ab2abf59dc===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b-480x150.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcc5a54-zepgBt.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b-480x150.png?simply_static_page=13
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-21b-480x150.png?simply_static_page=13
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 2411 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-21b-480x150.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcc5a54-zepgBt.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-21b-480x150.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:caf8e6df3caa46247743c69879d034b82734e8f3===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcce091-N542EL.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b.png?simply_static_page=14
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b.png?simply_static_page=14
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 4122 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-28b.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcce091-N542EL.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-28b.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:f3a657239c5ba9346f2cb271eb4980b5c1d5eaa5===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-300x300.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcd5acf-ybGOCM.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-300x300.png?simply_static_page=15
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-300x300.png?simply_static_page=15
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 6871 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-28b-300x300.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcd5acf-ybGOCM.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-28b-300x300.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:3ac200865f97b921850b448c75778d2be3443259===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-150x150.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcddd9d-9u5uda.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-150x150.png?simply_static_page=16
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-28b-150x150.png?simply_static_page=16
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 3037 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-28b-150x150.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcddd9d-9u5uda.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-28b-150x150.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:c3de64dd64bff0597a1be6b9d0a893d72b187401===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fce8fd7-wvWAeM.tmp
+[2025-02-11 15:17:16] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b.png?simply_static_page=17
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b.png?simply_static_page=17
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:103] Filesize: 3528 bytes
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-29b.png
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fce8fd7-wvWAeM.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-29b.png
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:16] [class-ss-page.php:119] Checking Content Identical:d949adcb6e15af1c9643cadb335bcba07c26bcca===. Value: FALSE
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-300x300.png
+[2025-02-11 15:17:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 50
+[2025-02-11 15:17:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fcf3caf-rK0ZKw.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-300x300.png?simply_static_page=18
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-300x300.png?simply_static_page=18
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 3931 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-29b-300x300.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fcf3caf-rK0ZKw.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-29b-300x300.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:4d4b3f933990c68754190314009e190bff47be38===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-150x150.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd0c75e-J2XUkU.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-150x150.png?simply_static_page=19
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-29b-150x150.png?simply_static_page=19
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 1744 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-29b-150x150.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd0c75e-J2XUkU.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-29b-150x150.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:d85fa906d236adba40ee03717ba2aa9aaec97bc4===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd194e3-qFf4kF.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b.png?simply_static_page=20
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b.png?simply_static_page=20
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 4070 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-30b.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd194e3-qFf4kF.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-30b.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:ef6dbff68d90658a9665c783401cd0f1ce7a4f14===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-300x300.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd274e1-8PA4r6.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-300x300.png?simply_static_page=21
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-300x300.png?simply_static_page=21
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 6741 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-30b-300x300.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd274e1-8PA4r6.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-30b-300x300.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:59f12f7a38a46323e2fdf60074818843e5ff6e06===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-150x150.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd30031-cz9vRt.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-150x150.png?simply_static_page=22
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-30b-150x150.png?simply_static_page=22
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 3019 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-30b-150x150.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd30031-cz9vRt.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-30b-150x150.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:2e28c0f03c35e1997f4396e80b0f1e466a9a7866===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd37a0e-LbRp4k.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b.png?simply_static_page=23
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b.png?simply_static_page=23
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 3803 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-31b.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd37a0e-LbRp4k.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-31b.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:24d5bdd9a168e13bdfa1c7c52ffd889bc1503ed3===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-300x300.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd40023-V4iv26.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-300x300.png?simply_static_page=24
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-300x300.png?simply_static_page=24
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 6404 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-31b-300x300.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd40023-V4iv26.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-31b-300x300.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:5bd6cefddcc2a985935356262f4b71c063fc8774===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-150x150.png
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd47ae9-wXdlCj.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-150x150.png?simply_static_page=25
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-31b-150x150.png?simply_static_page=25
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 2801 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-31b-150x150.png
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd47ae9-wXdlCj.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-31b-150x150.png
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:9d116db3e4f06af6fc42eb252c4d7ca80bcbb0c7===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-includes/js/jquery/jquery.min.js
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd4fab0-BAECy2.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=26
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=26
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd4fab0-BAECy2.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-includes/js/jquery/jquery.min.js
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd7164c-rYLuGw.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=27
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=27
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd7164c-rYLuGw.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fd8fe13-GNzopC.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=28
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=28
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 274335 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fd8fe13-GNzopC.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:cb2199a64629ba9f207d1764603b5bd81b71e3cb===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fdafa64-MMOEur.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=29
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=29
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fdafa64-MMOEur.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fdb5655-cdSxx3.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=30
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=30
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fdb5655-cdSxx3.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-9.jpg
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fdbbb16-1YqynN.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-9.jpg?simply_static_page=31
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-9.jpg?simply_static_page=31
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 35493 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-9.jpg
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fdbbb16-1YqynN.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-9.jpg
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:68bf205c34697c1f200f13be5cf3c383c4545011===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/xmlrpc.php
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/xmlrpc.php
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/feed/
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/feed/
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/comments/feed/
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/comments/feed/
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/et-cache/9/et-divi-dynamic-9.css
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fdc896b-0FxKh1.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/et-cache/9/et-divi-dynamic-9.css?simply_static_page=35
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/et-cache/9/et-divi-dynamic-9.css?simply_static_page=35
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 6500 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/9/et-divi-dynamic-9.css
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fdc896b-0FxKh1.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/et-cache/9/et-divi-dynamic-9.css
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:17] [class-ss-page.php:119] Checking Content Identical:fd4fb9155433c7863dcff8647813bca71b3b6923===. Value: FALSE
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-json/
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/wp-json/
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-json/wp/v2/pages/9
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/wp-json/wp/v2/pages/9
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-json/oembed/1.0/embed
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://accountant-life.local/wp-json/oembed/1.0/embed
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 15:17:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 50
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fde20c7-fPVrng.tmp
+[2025-02-11 15:17:17] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=39
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=39
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 15:17:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fde20c7-fPVrng.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 15:17:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe0a27c-yy9zSr.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=40
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=40
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe0a27c-yy9zSr.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe1756e-bkatar.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot?simply_static_page=41
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot?simply_static_page=41
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 10416 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe1756e-bkatar.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:3537f07c8caeb6e729af714734dcba6681384ff4===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe1f90e-ZD1trX.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff?simply_static_page=42
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff?simply_static_page=42
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 10320 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe1f90e-ZD1trX.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:d06eaf6333705bca4e0cd25174b3e3e3b9b66804===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe2cd0b-74Mh5y.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf?simply_static_page=43
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf?simply_static_page=43
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 10244 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe2cd0b-74Mh5y.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:896b1f0662b256dad0de3e9d6ff2e2f12fc3fadd===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe35327-yFxWPX.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg?simply_static_page=44
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg?simply_static_page=44
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 30889 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe35327-yFxWPX.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:7d9137ba557567cde623bc46edbcac6f06a1b9a8===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-22.png
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe4efb9-N4M6za.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-22.png?simply_static_page=45
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-22.png?simply_static_page=45
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 10884 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-22.png
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe4efb9-N4M6za.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-22.png
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:fa8b64755b370a7705de07aebdbb76d0d1ca077c===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-11.jpg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe59a93-j3QI5c.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-11.jpg?simply_static_page=46
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-11.jpg?simply_static_page=46
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 11686 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/portrait-square-11.jpg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe59a93-j3QI5c.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/portrait-square-11.jpg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:1477074ff47f6bdf21a51f7ed3c966b3edf47aa4===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-07.jpg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe6af88-ljQNoN.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-07.jpg?simply_static_page=47
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-07.jpg?simply_static_page=47
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 16018 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/portrait-square-07.jpg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe6af88-ljQNoN.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/portrait-square-07.jpg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:d0fca86b8bce8d455211425df6d2861459b07830===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-06.jpg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe7a6ca-IGlFw7.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-06.jpg?simply_static_page=48
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-06.jpg?simply_static_page=48
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 13870 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/portrait-square-06.jpg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe7a6ca-IGlFw7.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/portrait-square-06.jpg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:d1dcf75a9370ae0bfbce85df58363adf01158579===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-04.jpg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe82cd8-PGO6VT.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-04.jpg?simply_static_page=49
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/portrait-square-04.jpg?simply_static_page=49
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 11769 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/portrait-square-04.jpg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe82cd8-PGO6VT.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/portrait-square-04.jpg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:2656c9b8cb42cf57e2ea0c93dbda58b018365e05===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:72] URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-10.jpg
+[2025-02-11 15:17:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 50
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67ab69fe8e9ab-4fxAX7.tmp
+[2025-02-11 15:17:18] [class-ss-page-handler.php:38] URL Prepared:http://accountant-life.local/wp-content/uploads/2025/02/consulting-10.jpg?simply_static_page=50
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:251] Fetching URL: http://accountant-life.local/wp-content/uploads/2025/02/consulting-10.jpg?simply_static_page=50
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:103] Filesize: 62197 bytes
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/consulting-10.jpg
+[2025-02-11 15:17:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67ab69fe8e9ab-4fxAX7.tmp to C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026/wp-content/uploads/2025/02/consulting-10.jpg
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 15:17:18] [class-ss-page.php:119] Checking Content Identical:5f6c52c35aa350b84d9505a5bcc07bbf8f126859===. Value: FALSE
+[2025-02-11 15:17:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 50 pages/files
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 15:17:18] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 0
+[2025-02-11 15:17:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 50 of 50 pages/files
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:131] Cannot copy C:/Users/stefa/Local Sites/accountant-life/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1739287026/index.html to /index.html
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-8.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-8-480x300.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-7.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-7-480x300.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-29.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-32.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-19b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-19b-480x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-20.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-20-480x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-21b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-21b-480x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-28b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-28b-300x300.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-28b-150x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-29b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-29b-300x300.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-29b-150x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-30b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-30b-300x300.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-30b-150x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-31b.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-31b-300x300.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-31b-150x150.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/js/jquery
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/js/jquery
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/js
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-9.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/et-cache/9/et-divi-dynamic-9.css
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/et-cache/9
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/css/dist/block-library
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/styles/images
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/social
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/social
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/social
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/social
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-22.png
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/portrait-square-11.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/portrait-square-07.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/portrait-square-06.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/portrait-square-04.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/consulting-10.jpg
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:44. Processed Pages: 44
+[2025-02-11 15:17:18] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 44 of 44 files
+[2025-02-11 15:17:18] [trait-can-process-pages.php:112] Total pages: 44; Pages remaining: 0
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-02-11 15:17:18] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\Users\stefa\Local Sites\accountant-life\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739287026\404\index.html
+[2025-02-11 15:17:18] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://stefanoturcarelli.github.io/accountant-life/" target="_blank">https://stefanoturcarelli.github.io/accountant-life/</a>
+[2025-02-11 15:17:18] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-11 15:17:19] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-11 15:17:19] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-11 15:17:19] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-11 15:17:19] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-11 15:17:19] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-11 15:17:19] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-11 15:17:19] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:13
